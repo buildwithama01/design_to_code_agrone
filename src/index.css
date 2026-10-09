@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --color-agrone-green: #003324;
+  --color-agrone-lime: #8bc652;
+  --color-agrone-cream: #f5ebe2;
+}
+
+:root {
+  font-family: "Outfit", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #003324;
+  background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.feature-carousel-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.feature-carousel-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.notched-surface {
+  --notch-width: 88px;
+  --notch-height: 76px;
+  --notch-radius: 24px;
+  --surface-radius: 32px;
+
+  border-radius: var(--surface-radius);
+}
+
+.notched-surface--article {
+  --notch-width: 68px;
+  --notch-height: 60px;
+  --notch-radius: 20px;
+  --surface-radius: 20px;
+}
+
+.notched-surface--features {
+  --notch-width: 72px;
+  --notch-height: 64px;
+  --notch-radius: 22px;
+  --surface-radius: 28px;
+}
+
+.notched-surface--overlay {
+  --notch-width: 64px;
+  --notch-height: 60px;
+  --notch-radius: 20px;
+  --surface-radius: 20px;
+}
+
+.notched-surface--cta {
+  --notch-width: 76px;
+  --notch-height: 64px;
+  --notch-radius: 22px;
+  --surface-radius: 32px;
+}
+
+.notched-surface--product {
+  --notch-width: 72px;
+  --notch-height: 64px;
+  --notch-radius: 22px;
+  --surface-radius: 24px;
+}
