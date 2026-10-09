@@ -1,4 +1,4 @@
-import { FaArrowRight, FaWheatAwn } from 'react-icons/fa6'
+import { FaWheatAwn } from 'react-icons/fa6'
 import { HiArrowLongRight } from "react-icons/hi2";
 
 function HeroContent() {
