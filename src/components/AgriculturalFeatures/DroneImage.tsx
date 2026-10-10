@@ -21,7 +21,7 @@ function DroneImage({ image, imageAlt, backgroundColor }: DroneImageProps) {
       <img
         alt=""
         aria-hidden="true"
-        className="absolute -top-[15%] -left-[15%] z-10 size-[130%] max-w-none object-contain object-center"
+        className="absolute -top-[15%] -left-[5%] z-10 size-[110%] max-w-none object-contain object-center sm:-left-[10%] sm:size-[120%] lg:-left-[15%] lg:size-[115%]"
         src={image}
       />
     </div>
