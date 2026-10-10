@@ -5,11 +5,11 @@ function HeroContent() {
   return (
     <div className="max-w-2xl text-white">
       <h1
-        className="text-[3.25rem] leading-[0.98] font-normal tracking-[-0.055em] sm:text-7xl md:text-8xl lg:text-[clamp(5rem,7.8vw,7.5rem)]"
+        className="text-[clamp(2rem,12vw,3.25rem)] leading-[0.98] font-normal tracking-[-0.055em] sm:text-7xl md:text-8xl lg:text-[clamp(5rem,7.8vw,7.5rem)]"
         id="hero-heading"
       >
         Part of future
-        <span className="mt-1 flex items-center gap-3">
+        <span className="mt-1 flex flex-wrap items-center gap-2 sm:gap-3">
           Agriculture
           <span className="inline-flex size-10 shrink-0 items-center justify-center rounded-full border border-white/80 sm:size-12">
             <FaWheatAwn aria-hidden="true" className="size-5 sm:size-6" />
